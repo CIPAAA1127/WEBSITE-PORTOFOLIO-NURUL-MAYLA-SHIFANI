@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profil - Nurul Mayla Shifani</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!-- CSS untuk mengubah warna semua judul (h1 dan h2) menjadi biru -->
+    <style>
+      h1, h2 {
+        color: skyblue;
+      }
+    </style>
+    <style>
+      h3, h4 {
+        color: deeppink;
+      }
+    </style>
+  <body>
+    <!-- Judul Utama -->
+      <h1 class="title">Portofolio Multimedia Saya</h1>
+
+    <!-- Foto Profil -->
+      <img src="https://uploads.onecompiler.io/454ng5x4z/1790651952065/CIPA.png" alt="Foto Profil" width="150" />
+
+    <!-- Data Diri-->
+      <h2>Data Diri</h2>
+      <p>
+        <strong>Nama:</strong> Nurul Mayla Shifani <br />
+        <strong>NIM:</strong> 25903460019 <br />
+        <strong>Program Studi:</strong> Teknologi Rekayasa Multimedia <br />
+        <strong>Semester:</strong> 3 <br />
+        <strong>Email:</strong> shifaninurul11@gmail.com
+      </p>
+    <!-- Bagian Tentang Saya -->
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya adalah seorang mahasiswa yang tertarik pada dunia kreatif dan teknologi multimedia. Saya suka mengeksplorasi pembuatan konten visual, desain grafis, dan animasi untuk menyampaikan ide-ide yang menarik.
+      </p>
+      
+    <!-- Bagian Minat Multimedia (Unordered List) -->
+      <h2>Minat Multimedia</h2>
+      <ul>
+        <li>Desain Grafis</li>
+        <li>Editing Video</li>
+        <li>Animasi</li>
+        <li>UI/UX Design</li>
+      </ul>
+
+    <!-- Bagian Software yang Dikuasai/Ingin Dipelajari (Ordered List) -->
+      <h2>Software yang Dikuasai</h2>
+       <h3> Dikuasai:</h3>
+      <ol>
+        <li>Ibis Paint X</li>
+        <li>Figma</li>
+        <li>Canva</li>
+      </ol>
+      <h3>Ingin Dipelajari:</h3>
+      <ol>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Premiere Pro</li>
+        <li>Davinchi Resoulve</li>
+        <li>VSCode</li>
+      </ol>
+
+    <!-- Bagian Karya Multimedia Saya -->
+      <h2>Karya Multimedia Saya</h2>
+    <div>
+      <img src="https://uploads.onecompiler.io/454ng5x4z/1790655101905/11bbfa0f-39f2-42cc-891f-a6fdf27301a4.png" alt="Karya 1" width="300" />
+      <p><strong>Karya 1: Logo PIK-R KEC.CITEUREUP</strong> - Gambar ini adalah logo yang saya buat untuk organisasi PIK-R KEC.CITEUREUP</p>
+    </div>
+      
+    <div>
+      <img src="https://uploads.onecompiler.io/454ng5x4z/1790654934421/WhatsApp%20Image%202026-01-12%20at%2002.03.56.jpeg" alt="Karya 2" width="300" />
+      <p><strong>Karya 2: Illustrasi Digital</strong> - Gambar ini adalah gambar untuk cerita novel saya di wattpad.</p>
+    </div>
+
+    <!-- Tabel Riwayat Pendidikan -->
+    <h2>Riwayat Pendidikan</h2>
+    <table border="1" cellpadding="5">
+      <tr>
+        <th>No</th>
+        <th>Jenjang</th>
+        <th>Nama Sekolah</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>SD</td>
+        <td>SD Negeri 03 Puspanegara</td>
+        <td>2013 - 2019</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>SMP</td>
+        <td>SMP Negeri 03 Citeureup</td>
+        <td>2019 - 2022</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>SMA</td>
+        <td>SMA Negeri 04 Cibinong</td>
+        <td>2022 - 2025</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kuliah</td>
+        <td>Universitas Boash</td>
+        <td>2025 - Sekarang</td>
+      </tr>
+    </table>
+    <br />
+
+    <!-- Link Portofolio / Media Sosial -->
+    <h2>Media Sosial & Portofolio</h2>
+    <p>
+      <a href="https://www.instagram.com/maylaaart?stkn=NWRtZTB4cndoOHdq">Instagram</a> | 
+      <a href="https://github.com/CIPAAA1127">GitHub</a>
+    </p>
+
+    <!-- Bagian Cita-cita Saya di Industri Multimedia -->
+    <h2>Cita-cita Saya di Industri Multimedia</h2>
+    <p>
+      Cita-cita saya di industri multimedia adalah menjadi seorang profesional UI/UX Designer dan Multimedia Specialist yang mampu menciptakan karya-karya visual interaktif serta memberikan pengalaman pengguna yang menarik dan bermanfaat bagi masyarakat luas.
+    </p>
+
+      <p id="currentTime"></p>
+  </body>
+</html>
